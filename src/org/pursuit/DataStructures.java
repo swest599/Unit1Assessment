@@ -6,19 +6,19 @@ import java.util.HashSet;
 
 public interface DataStructures {
     static char[] stringToCharArray(String word){
+        char [] chars = word.toCharArray();
+        return word.toCharArray(); }
 
-        return word.toCharArray();
-    }
+
     static ArrayList<Integer>  multiplicationTableList(int number){
-//        ArrayList<Integer> arr = multiplicationTableList(int  )
-        return multiplicationTableList(0);
-    }
-    static HashMap<String, Integer> wordLength(String[] wordArray){
-//        HashMap<String, Integer> stringIntegerHashMap = wordLength(String h = ("race"));
-        return ;
-    }
-    static HashSet<Character>  uniqueCharacters(String word){
+        ArrayList<Integer> arr = new ArrayList<>( );
+        return arr; }
 
-        return uniqueCharacters("racer");
-    }
+    static HashMap<String, Integer> wordLength(String[] wordArray){
+        HashMap<String, Integer> yada = new HashMap<>();
+        return yada; }
+
+    static HashSet<Character>  uniqueCharacters(String word){
+    HashSet <Character> sett = new HashSet<>();
+        return sett; }
 }
